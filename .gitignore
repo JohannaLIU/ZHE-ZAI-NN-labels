@@ -3,8 +3,6 @@
 # 但保留.gitignore本身
 !.gitignore
 # 保留父文件夹及p1子文件夹
-!parent-folder/
-!parent-folder/p1/
-# 保留p1文件夹内的所有文件和子文件夹
-parent-folder/p1/*
-!parent-folder/p1/**
+!p1/
+p1/*
+!p1/**
